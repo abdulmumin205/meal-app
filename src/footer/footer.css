@@ -1,0 +1,27 @@
+.footer {
+  justify-content: center;
+  background-color: #212121;
+  text-align: center;
+  padding: 7rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links p {
+  margin: 2rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.footer-links p:hover {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-links {
+    justify-content: space-around;
+  }
+}

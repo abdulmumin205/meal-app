@@ -1,0 +1,153 @@
+.contact {
+  width: 100%;
+  text-align: center;
+  margin: 4rem auto;
+}
+.contact-details {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin: 2rem 0rem 4rem 0rem;
+}
+.title h1 {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.title p {
+  width: 50%;
+  margin: 0rem auto;
+}
+
+.address {
+  width: 30%;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.form {
+  width: 60%;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+
+  align-items: baseline;
+}
+
+.form input {
+  padding: 0.6rem;
+  width: 15rem;
+  background-color: #dee2e8;
+  border: none;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form label {
+  margin-bottom: 0.2rem;
+}
+
+.address-item {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+}
+
+.address-item span {
+  font-size: 1.1rem;
+  color: #ff651c;
+  margin-right: 1rem;
+}
+
+.address-item p {
+  width: 10rem;
+  text-transform: capitalize;
+  text-align: start;
+  font-weight: 500;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+.feedback textarea {
+  background-color: #dee2e8;
+  border: none;
+  padding: 0.5rem;
+}
+
+.feedback textarea:focus {
+  outline: none;
+}
+
+.feedback label {
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.details {
+  align-items: flex-start;
+}
+
+.name,
+.phone,
+.email {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    justify-content: center;
+  }
+
+  .contact-details {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem auto;
+    padding: 0rem 2rem;
+  }
+
+  form {
+    flex-direction: column;
+  }
+
+  .address {
+    width: 90%;
+  }
+
+  .form {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .details {
+    margin: 0rem auto;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+
+  .feedback {
+    margin: 0rem auto;
+  }
+
+  .feedback textarea {
+    width: 15rem;
+  }
+}

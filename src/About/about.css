@@ -1,0 +1,63 @@
+.about {
+  display: flex;
+  justify-content: center;
+  margin: 0rem auto;
+  width: 100%;
+  padding: 10rem 4rem;
+  align-items: flex-start;
+  background-color: white;
+}
+
+.about-items {
+  text-align: start;
+  margin-right: 2rem;
+  width: 40%;
+}
+
+.about-items h1 {
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.about-items button {
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-transform: capitalize;
+  color: #ff651c;
+  border: 2px solid #ff651c;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.about-image {
+  width: 40%;
+  margin-left: 2rem;
+}
+
+.about-image img {
+  object-fit: fill;
+  border-radius: 10px;
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-items {
+    width: 90%;
+    margin: 0rem auto;
+    text-align: center;
+  }
+
+  .about-image {
+    display: none;
+  }
+}
